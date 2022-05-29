@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bin2Dec</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="user-input">
+        <form action="">
+          <label for="binary">Binary Value: </label>
+          <input type="number" name="binary" id="binary" min="0" />
+          <input
+            type="button"
+            class="btn"
+            value="Convert"
+            onclick="convert()"
+          />
+        </form>
+      </div>
+      <div class="output">
+        <h1>
+          decimal number: <span id="dic-output" class="dic-output">0</span>
+        </h1>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

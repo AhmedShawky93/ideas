@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(7, 64, 87);
+}
+
+.user-input {
+    padding: 10px;
+}
+
+.dic-output {
+    color: crimson;
+}
+
+#binary {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    width: 100%;
+    padding: 8px;
+    background-color: darkolivegreen;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+input[type=number] {
+    padding: 8px;
+    outline: none;
+}
+
+label {
+    color: #fff;
+    padding: 5px;
+    font-family: sans-serif;
+}
